@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
- platform :ios, '10.0'
+ platform :ios, '15.0'
 
-target 'CustomLogin' do
+target 'CarPark' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   
@@ -12,4 +12,8 @@ target 'CustomLogin' do
     pod 'Firebase/Auth'
     pod 'Firebase/Core'
     pod 'Firebase/Firestore'
+    pod 'FirebaseFirestoreSwift'
+    pod 'GooglePlaces', '7.1.0'
+    pod 'FloatingPanel'
+    
 end
